@@ -1,0 +1,16 @@
+pypdf
+pandas
+numpy
+
+torch
+transformers
+accelerate
+
+sentence-transformers
+
+faiss-cpu
+
+langchain
+langchain-community
+langchain-experimental
+langchain-huggingface
