@@ -1,0 +1,35 @@
+index,category,question,expected,model_answer,time_sec
+1,Direct,What is the remaining mortgage balance?,"342,600","342,600 dollars",2.28
+2,Direct,What is the monthly mortgage payment?,"2,180","2,180 dollars",1.51
+3,Direct,What is the interest rate on the mortgage?,5.35,5.35 percent,1.66
+4,Direct,How much remains on the car loan?,"11,400","11,400 dollars",1.58
+5,Direct,What is the monthly car loan payment?,365,1140,1.42
+6,Direct,How much is currently in the emergency fund?,"15,000","15,000 dollars",1.66
+7,Direct,What is the target for the emergency fund?,"24,000","The target for the emergency fund is 24,000 dollars.",2.22
+8,Direct,How much is currently in the brokerage account?,"58,300","58,300 dollars",1.56
+9,Paraphrased,How much does the household pay every month toward the home loan?,"2,180",365 dollars,1.59
+10,Paraphrased,What amount has been set aside as the household's financial safety cushion?,"15,000","15,000 dollars",1.57
+11,Paraphrased,What sum has been accumulated for repairing the house?,"6,200","6,200 dollars",1.72
+12,Paraphrased,How much money has been put away for the eventual replacement of Priya's car?,"4,800","4,800 dollars",1.56
+13,Paraphrased,What is the current value of the household's taxable investment account?,"58,300","58,300 dollars",1.63
+14,Conceptual,Why does the household keep several savings accounts instead of putting all the money into one account?,separate goals,The household keeps several savings accounts instead of putting all the money into one account because seeing a labeled goal makes Priya more disciplined than watching one large number grow without context.,3.23
+15,Conceptual,Why is the emergency fund kept separate from the home repair fund?,emergencies,"They have deliberately kept the emergency fund separate from the home repair fund because they do not want a routine repair, however large, to eat into the reserve they would need if someone lost a job.",3.14
+16,Conceptual,Why do Daniel and Priya consider the car loan more urgent than the mortgage?,higher rate,"Daniel and Priya consider the car loan more urgent than the mortgage because the remaining term is already short, and they expect to fully retire it within roughly fourteen months. Additionally, the interest rate on the car loan is 6. 9 percent, which is notably higher than the mortgage rate, making the monthly payment of 365 dollars more significant compared to the mortgage's lower rate.",5.33
+17,Conceptual,Why don't they consider their brokerage account to be emergency savings?,market,"Because the money in the brokerage account is meant to grow over a long horizon and is not considered accessible for near-term needs, even though it is technically liquid.",3.37
+18,Conceptual,Why is the vacation fund considered more flexible than the vehicle fund?,vacation can be postponed,"The vacation fund is considered more flexible than the vehicle fund because the trip funded by the vacation account could in principle be postponed indefinitely without any real consequence, unlike a vehicle replacement which is eventually unavoidable.",3.09
+19,Comparison,"Which has the higher interest rate, the mortgage or the car loan?",car loan,The car loan has the higher interest rate at 6.9 percent compared to the mortgage.,2.3
+20,Comparison,How does the purpose of the emergency fund differ from the home repair fund?,emergency fund,"The emergency fund is intended for known but unscheduled expenses such as job loss, medical emergencies, or major home repairs, while the home repair fund is specifically for planned major renovation projects.",3.42
+21,Comparison,How are the brokerage account and cryptocurrency holdings treated differently?,cryptocurrency,"The brokerage account is treated differently from the cryptocurrency holdings as the brokerage account is treated as part of their investment strategy and is tracked for performance, whereas the cryptocurrency position is treated as a speculative holding and its performance is not tracked due to its volatility.",9.44
+22,Comparison,"Which is considered more urgent, replacing the car or taking the vacation?",vehicle,replacing the car,1.88
+23,Multi-hop,Why do they prioritize paying off the car loan before making extra mortgage payments?,car loan,"When the math might favor investing instead, which is part of the reasoning behind prioritizing the car loan over extra mortgage payments despite the mortgage carrying a far larger balance.",3.2
+24,Multi-hop,What financial priority comes after finishing the car loan?,emergency fund,Building the emergency fund,1.52
+25,Multi-hop,Why does the household continue retirement contributions even while dealing with shorter-term goals?,long-term,"The household continues retirement contributions even while dealing with shorter-term goals because both Daniel and Priya view long-term investing as something that should not be paused just because a shorter-term goal feels more pressing. They follow a layered approach, addressing immediate debts, safety nets, and medium-term goals, while allowing long-term investments to continue continuously.",4.53
+26,Missing Information,What is the name of the institution that currently services the mortgage?,I couldn't find this information,I couldn't find this information.,1.65
+27,Missing Information,What is the current balance of the college fund?,I couldn't find this information,The current balance of the college fund is not recorded in this record.,1.96
+28,Missing Information,What specific car model does Priya plan to buy?,I couldn't find this information,I couldn't find this information.,1.61
+29,Missing Information,What is their planned vacation destination?,I couldn't find this information,I couldn't find this information.,1.73
+30,Missing Information,What medications are Daniel and Priya currently taking?,I couldn't find this information,I couldn't find this information.,1.68
+31,Calculation,How much more money is needed to reach the emergency fund target?,"9,000","6,000 dollars.",1.66
+32,Calculation,How much more is needed to reach the home repair fund target?,"3,800","3,800 dollars.",1.64
+33,Calculation,How much more is needed to reach the vacation fund target?,"1,850","For the vacation fund, the target amount is 3,150 dollars, and currently, 3,150 dollars have been saved. Therefore, no additional amount is needed to reach the vacation fund target.",3.63
+34,Calculation,How much more is needed for the vehicle savings account to reach its target?,"7,200","4,200 dollars.",1.63
